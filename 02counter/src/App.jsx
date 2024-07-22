@@ -17,7 +17,7 @@ function App() {
   }
   return (
     <>
-      <h1 >Namaste React</h1>
+      <h1 >Counter</h1>
       <h2>Counter : {counter}</h2>
       <button onClick={increment}>Increase</button>
       <br />
