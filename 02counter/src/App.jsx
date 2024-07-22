@@ -3,7 +3,6 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-
 function App() {
   const [counter, setCounter] = useState(15)
   const increment = ()=>{
@@ -18,7 +17,7 @@ function App() {
   }
   return (
     <>
-      <h1>Namaste React</h1>
+      <h1 >Namaste React</h1>
       <h2>Counter : {counter}</h2>
       <button onClick={increment}>Increase</button>
       <br />
